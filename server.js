@@ -7,7 +7,6 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, Cafe Media! Thanks for the opportunity!\n');
 });
 
 server.listen(port, hostname, () => {
